@@ -1,0 +1,4 @@
+[submodule "quantum_decomp"]
+	path = quantum_decomp
+	url = https://github.com/fedimser/quantum_decomp.git
+	branch = master
