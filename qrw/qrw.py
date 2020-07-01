@@ -151,7 +151,7 @@ class QRWsearch(QRWreg):
 
         return U
 
-    def Uprime(self):
+    def Uprime(self, display_matrix=False):
         #state_search is the state we are searching for
         #we will focus on the second term
         #Note that state search must be in decimal
@@ -185,6 +185,10 @@ class QRWsearch(QRWreg):
             U_ = self.U()
 
             Uprime = U_-(2*term2)
+            if display_matrix:
+                print("Matrix for U':")
+                print(np.real(Uprime.data))
+
             return Uprime
 
     #Visualization
