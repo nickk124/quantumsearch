@@ -22,6 +22,7 @@ from matplotlib.path import Path
 from matplotlib.animation import FuncAnimation
 
 
+
 #in this algorithm we have a dimension of n for the state space
 #then we have log2(n) states in the coin space
 
@@ -188,7 +189,7 @@ class QRWsearch(QRWreg):
 
     #Visualization
     def draw_circuit(self):
-        return self.circuit.draw()
+        return self.circuit.draw(output='mpl')
 
     def plot_states_hist(self):  # plots by actually measuring the circuit
         #self.circuit.measure_all()
