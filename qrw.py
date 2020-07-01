@@ -77,7 +77,7 @@ class QRWsearch(QRWreg):
         circ.h(quan_reg[0:self.n])
 
         #operating U prime pi/2 sqrt(2) times
-        times = round(0.5*np.pi*np.sqrt(2**(self.dim)))
+        times = np.ceil(0.5*np.pi*np.sqrt(2**(self.dim)))
 
 
         for i in range(int(times)):
@@ -138,12 +138,16 @@ class QRWsearch(QRWreg):
             print(np.real(C.data))
         return C
 
-    def U(self):
+    def U(self, display_matrix=False):
 
         S_= self.S()
         C_ = self.C()
 
         U = C_.compose(S_)
+        if display_matrix:
+            print('Matrix for U:')
+            print(np.real(U.data))
+
         return U
 
     def Uprime(self):
@@ -194,7 +198,7 @@ class QRWsearch(QRWreg):
         answer = results.get_counts()
 
 
-        return plot_histogram(answer, figsize=(15,15))
+        return plot_histogram(answer, figsize=(5,5))
 
 #defining the QRW algorithm as a subclass of the QRW registry
 class QRW(QRWreg):
