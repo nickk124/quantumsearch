@@ -10,7 +10,7 @@ We implement a Quantum Random Walk search algorithm on an n-dimensional hypercub
 ![Credit: Shenvi et. al 2003](media/shenvi.png)
 
 ### Introduction (excerpt from final report notebook)
-Random walks are one of the most powerful tools used in science and modeling-- they emerge in fields as wide ranging as psychology, physics, biology, and economics. The general case of random walks, Markov chains, are extensively used in machine learning and Bayesian statistics. In short, random walks are a powerful backbone for many further algorithms. Quantum random walks can offer a powerful algorithmic tool that outperform their classical analogues, one example being Google's well known PageRank algorithm.
+Random walks are some of the most powerful tools used in science and modeling-- they emerge in fields as wide-ranging as psychology, physics, biology, and economics. The general case of random walks, Markov chains, are extensively used in machine learning and Bayesian statistics. In short, random walks are a powerful backbone for many further algorithms. Quantum random walks can offer a powerful algorithmic tool that outperform their classical analogues, one example being Google's well known PageRank algorithm.
 
 
 
