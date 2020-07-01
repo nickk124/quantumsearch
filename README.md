@@ -15,7 +15,7 @@ Random walks are one of the most powerful tools used in science and modeling-- t
 
 
 ## [Project Final Report Notebook](https://github.com/nickk124/quantumsearch/blob/master/random_walk_search.ipynb)
-## [Project Presentation Slides](https://docs.google.com/presentation/d/12z91TcJpA5Xs7IAXA2TSqWe6dqgraMIdLQBUktpFH7M)
+## [Project Presentation Slides](https://github.com/nickk124/quantumsearch/blob/master/quantum_search_presentation.pdf)
 
 
 
